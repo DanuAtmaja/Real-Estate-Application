@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TGS_8374_8349_8258 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ASUSA4~1\AppData\Local\Temp\RSPDF96.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TGS_8374_8349_8258.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\TGS_8374_8349_8258\main.cpp"
+"E:\TGS_8374_8349_8258\source.cpp"
+]
+Creating command line "cl.exe @C:\Users\ASUSA4~1\AppData\Local\Temp\RSPDF96.tmp" 
+Creating temporary file "C:\Users\ASUSA4~1\AppData\Local\Temp\RSPDF97.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/TGS_8374_8349_8258.pdb" /debug /machine:I386 /out:"Debug/TGS_8374_8349_8258.exe" /pdbtype:sept 
+.\Debug\main.obj
+.\Debug\source.obj
+.\Debug\design.obj
+]
+Creating command line "link.exe @C:\Users\ASUSA4~1\AppData\Local\Temp\RSPDF97.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+E:\TGS_8374_8349_8258\main.cpp(84) : warning C4244: 'argument' : conversion from 'const double' to 'unsigned long', possible loss of data
+E:\TGS_8374_8349_8258\main.cpp(134) : warning C4244: 'argument' : conversion from 'const double' to 'unsigned long', possible loss of data
+E:\TGS_8374_8349_8258\main.cpp(342) : warning C4244: 'argument' : conversion from 'const double' to 'unsigned long', possible loss of data
+E:\TGS_8374_8349_8258\main.cpp(484) : warning C4244: 'argument' : conversion from 'const double' to 'unsigned long', possible loss of data
+E:\TGS_8374_8349_8258\main.cpp(810) : warning C4244: 'argument' : conversion from 'const double' to 'unsigned long', possible loss of data
+E:\TGS_8374_8349_8258\main.cpp(36) : warning C4101: 'i' : unreferenced local variable
+source.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+TGS_8374_8349_8258.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
